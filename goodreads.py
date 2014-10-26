@@ -14,7 +14,7 @@ def goodReads_Ratings(isbn_list):
     #isbn_list = ["0441172717", "0141439602"] #sample
     ratingsDict = {}
     for isbn in isbn_list:
-        url = "https://www.goodreads.com/book/review_counts.json?isbns="+isbn+"&key=pBii4egUIvDQi7XfR1sCmg"
+        url = "https://www.goodreads.com/book/review_counts.json?isbns="+isbn+"&key=
         request = urllib2.Request(url)
 
 

@@ -12,9 +12,9 @@ import re
 
 def amazon_ratings(isbnList):
 
-    AWS_KEY='AKIAJNDBAPB6TLB22AIQ'
-    SECRET_KEY='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'
-    ASSOCIATE = "schoolproj048-20"
+    AWS_KEY=''
+    SECRET_KEY=''
+    ASSOCIATE = ""
 
     api = API(AWS_KEY, SECRET_KEY, 'us', ASSOCIATE)
 

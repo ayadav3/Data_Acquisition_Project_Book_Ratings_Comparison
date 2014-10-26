@@ -8,7 +8,7 @@ from goodreads import goodReads_Ratings
 from amazon_api_final import amazon_ratings
 
 
-appId = 'Universi-c079-4ab5-89e3-d3ae9e6f8c18'
+appId = ''
 dataDict = {}
 
 categoryList = ['378'] #Category ids for the category:Non-fiction, fiction, education,,'377','2228'
